@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JHILMIL:Diwali Fest of IGDTUW
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("bg1.jpg");
+        font-family: "Baloo Bhai 2", cursive;
+        height: 1000px;
+      }
+      header {
+        background: mistyrose;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        opacity: 0.8;
+        height: 100px;
+      }
+      /* #first {
+        /* border: 2px solid red; */
+      /* border-radius: 100px; */
+      /* } */
+      #first img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+        animation-name: logo;
+        animation-duration: 5s;
+        /* animation-delay: 1s; */
+      }
+      @keyframes logo {
+        from {
+          border-radius: 0px;
+        }
+        to {
+          border-radius: 200px;
+        }
+      }
+      #second {
+        position: absolute;
+        left: 500px;
+        top: 30px;
+        /* border: 2px solid red; */
+        display: inline-block;
+      }
+      #second ul li a {
+        text-decoration: none;
+        margin: 10px;
+        color: rgb(9, 12, 6);
+      }
+      #navbar {
+        display: inline-block;
+      }
+      #navbar li {
+        display: inline-block;
+      }
+      #navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(104, 4, 4);
+        font-weight: bolder;
+      }
+      #third {
+        position: absolute;
+        right: 10px;
+        top: 35px;
+        /* border: 2px solid red; */
+      }
+      .btn {
+        border-radius: 10px;
+        background: transparent;
+        border: none;
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 16px;
+        margin: 5px;
+      }
+      .btn1 {
+        border-radius: 10px;
+        background: transparent;
+        border: none;
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 20px;
+        margin: 5px;
+        transition: all 0.25s ease-in;
+      }
+      .btn:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: bolder;
+      }
+      .btn1:hover {
+        /* border: 2px solid red; */
+        border-radius: 200px;
+        background: rgb(14, 13, 14);
+        color: white;
+        cursor: pointer;
+        transform: skew(40deg);
+        transform: scale(1.3);
+        /* text-decoration: underline; */
+      }
+      .container {
+        background: url("bg3.png");
+        border: 2px solid rgb(179, 128, 128);
+        border-radius: 10px;
+        width: 33%;
+        text-align: center;
+        margin: 20px;
+        padding: 50px;
+        font-size: 30px;
+        transition: all 1s ease-in-out;
+      }
+      .container:hover {
+        transform: rotate(360deg);
+        border-radius: 5000px;
+      }
+      /* #accomo{
+        text-shadow: 50px 2px 10px 11px rgb(141, 75, 75);
+      } */
+      .container {
+        box-shadow: 7px 5px 10px 2px rgb(141, 138, 138);
+      }
+
+      .formgroup input {
+        text-align: center;
+        margin: 3px auto;
+        padding: 8px;
+        width: 300px;
+        font-size: 15px;
+        border-radius: 30px;
+        border: none;
+        background: rgb(212, 212, 212);
+        font-family: "Delius Unicase", cursive;
+        outline: none;
+      }
+      .container2 {
+        /* background: url('logo1.png'); */
+        /* border: 2px solid red; */
+        border-radius: 10px;
+        width: 500px;
+        height: 370px;
+        display: inline-block;
+        position: absolute;
+        right: 100px;
+        top: 120px;
+        text-align: center;
+      }
+      .container2 p {
+        font-family: "Akaya Kanadaka", cursive;
+        font-size: 25px;
+      }
+      .foot {
+        /* border: 2px solid red; */
+        border-radius: 10px;
+        position: relative;
+        top: 90px;
+        /* margin-bottom: 20px; */
+        padding-left: 50px;
+        padding-right: 100px;
+        /* text-align: right; */
+        background: url("bg4.jpg");
+      }
+      .fmg {
+        height: 50px;
+        position: relative;
+        top: 15px;
+        border-radius: 10px;
+      }
+      .foot h3 {
+        display: inline-block;
+      }
+      /* #last {
+        /* text-align: right; */
+      /* } */
+      #container2 {
+        /* border: 2px solid red; */
+        width: 300px;
+        position: absolute;
+        right: 200px;
+        bottom: 10px;
+        text-align: center;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        opacity: 0.8;
+      }
+      .link {
+        text-decoration: none;
+        color: black;
+      }
+      .link h3:hover {
+        /* border: 2px solid red; */
+        padding: 2px;
+        border-radius: 10px;
+        background: black;
+        color: white;
+        font-weight: bolder;
+      }
+      #lmg {
+        height: 200px;
+        position: relative;
+        top: 150px;
+        right: 330px;
+        border-radius: 200px;
+      }
+      /* .input :placeholde{
+        animation: all ease-in 0.3s;
+      } */
+      #images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+      .photo {
+        /* border: 2px solid black;
+        border-radius: 5px; */
+        background-color: rgb(211, 186, 186);
+        position: relative;
+        top: 90px;
+        display: flex;
+        /* width: 99%; */
+        height: 400px;
+        align-items: center;
+      }
+      .photo:hover{
+        background-color: rgb(211, 160, 160);
+      }
+      #photo1 {
+        border: 2px solid rgb(218, 184, 184);
+        border-radius: 500px;
+        height: 390px;
+        width: 390px;
+        position: relative;
+        left: 30px;
+        transition: all 0.25s ease-in-out;
+      }
+      #photo1:hover{
+        transform: rotate(360deg);
+      }
+      .text{
+        position: relative;
+        top: 20px;
+        left: 470px;
+        bottom: 100px;
+        text-align: center;
+      }
+      .text p{
+        font-family: "Akaya Kanadaka", cursive;
+        font-size: 25px;
+      }
+      /* #photo2 {
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+      }
+      #photo3 {
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+      } */
+      .explore{
+        border: 2px solid black;
+        display: flex;
+        height: 100px;
+        background-color: black;
+        position: relative;
+        top: 90px;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s ease-in-out;
+      }
+      #explr{
+        height: 45px;
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 10px;
+        font-size: 30px;
+        font-family: "Baloo Bhai 2", cursive;
+        margin: auto;
+      }
+      .explore:hover{
+        background-color: whitesmoke;
+        border: none;
+      }
+      #explr:hover{
+        color: whitesmoke;
+        background-color: black;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+      .photo1{
+        /* border: 2px solid black; */
+        position: relative;
+        top: 90px;
+        background-color: rgb(204, 145, 102);
+        display: flex;
+        height: 400px;
+        justify-content: right;
+      }
+      #photo2 {
+        border: 2px solid rgb(218, 184, 184);
+        border-radius: 500px;
+        height: 390px;
+        width: 390px;
+        position: relative;
+        /* left: 930px; */
+        margin: auto;
+        transition: all 0.25s ease-in-out;
+      }
+      .photo1:hover{
+        background-color: chocolate;
+      }
+      #photo2:hover{
+        transform: rotate(360deg);
+      }
+      .explore1{
+        border: 2px solid black;
+        display: flex;
+        height: 100px;
+        background-color: black;
+        position: relative;
+        top: 90px;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s ease-in-out;
+      }
+      .explore1:hover{
+        background-color: whitesmoke;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="first">
+        <img src="1.png" alt="Coming soon" />
+      </div>
+      <div id="second">
+        <ul id="navbar">
+          <li><a href="#about us" class="link">ABOUT US</a></li>
+          <li><a href="#contact us" class="link">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div id="third">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2 id="accomo">For Sponsorship</h2>
+      <form action="noaction.cpp">
+        <div class="formgroup">
+          <input type="text" placeholder="Your name" class="input" />
+        </div>
+        <div class="formgroup">
+          <input type="text" placeholder="Organisation" class="input" />
+        </div>
+        <div class="formgroup">
+          <input type="text" placeholder="Contact number" class="input" />
+        </div>
+        <!-- <div class="formgroup">
+          <input type="text" placeholder="">
+        </div> -->
+      </form>
+      <button class="btn1">Submit</button>
+    </div>
+    <div class="container2">
+      <h2> OVER 4000+ STUDENTS</h2>
+      <br />
+      <p>Connectivity at ease</p>
+      <p>Perfomance is given by big artists</p>
+      <p>join the diwali fest in DELHI</p>
+    </div>
+    <div class="photo">
+      <img src="2.jpg" alt="" id="photo1" />
+      <div class="text">
+        <h2>No entry fees</h2>
+        <br>
+        <p>enjoy with friends</p>
+        
+      </div>
+      <!-- <img src="images.jpg" alt="" id="photo2" />
+      <img src="hostel 2.jpg" alt="" id="photo3" /> -->
+    </div>
+    <div class="explore">
+      <button id="explr">Explore more</button>
+    </div>
+    <div class="photo1">
+      <img src="images.jpg" alt="" id="photo2">
+      
+    </div>
+    
+    <footer class="foot">
+      <a href="www.facebook.com" class="link">
+        <img src="3D_vector_facebook_icon_generated.png" alt="" class="fmg" />
+        <h3>facebook</h3>
+      </a>
+      <br />
+      <a href="www.instagram.com" class="link">
+        <img src="3D_vector_instagram_icon_generated.png" alt="" class="fmg" />
+        <h3>instagram</h3>
+      </a>
+      <br />
+      <a href="www.twitter.com" class="link">
+        <img src="3D_vector_Twitter_icon_generated.png" alt="" class="fmg" />
+        <h3>twitter</h3>
+      </a>
+      <div id="container2">
+        <!-- <h2 id="last">
+        UMBER
+      </h2> -->
+        <img src="logo1.png" alt="" id="lmg" />
+        <h3>
+          Organised with all the love in the DELHI by the <br />
+          taraangana team of IGDTUW
+        </h3>
+      </div>
+    </footer>
+  </body>
+</html>
